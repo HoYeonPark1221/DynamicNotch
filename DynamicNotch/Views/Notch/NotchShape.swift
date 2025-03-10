@@ -42,6 +42,5 @@ struct NotchShape: Shape {
 #Preview {
     NotchShape()
         .frame(width: 200, height: 32)
-        .background(Color.blue)
-        .padding(100)
+        .padding(.all, 100)
 }
